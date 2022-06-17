@@ -28,7 +28,7 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>AutoCalculate Form</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
