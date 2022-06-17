@@ -14,12 +14,14 @@ const initialValues = {
   input1: 0,
   input2: 0,
   input3: 0,
+  input4: 0,
   sum: 0,
 };
 const validationSchema = Yup.object().shape({
   input1: Yup.number().required("Input1 required"),
   input2: Yup.number().required("Input2 required"),
   input3: Yup.number().required("Input3 required"),
+  input4: Yup.number().required("Input4 required"),
   sum: Yup.number().required("Sum required"),
 });
 
