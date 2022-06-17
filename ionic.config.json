@@ -1,0 +1,7 @@
+{
+  "name": "AutoCalcForm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
