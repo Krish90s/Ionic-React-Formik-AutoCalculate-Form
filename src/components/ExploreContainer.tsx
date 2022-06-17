@@ -11,9 +11,8 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
     let input1 = getFieldProps("input1").value;
     let input2 = getFieldProps("input2").value;
     let input3 = getFieldProps("input3").value;
-    let input4 = getFieldProps("input4").value;
 
-    let total = input1 + input2 + input3 + input4;
+    let total = input1 + input2 + input3;
 
     setFieldValue("sum", total);
   };
@@ -54,15 +53,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
           value={getFieldProps("input3").value}
         />
       </IonItem>
-      <IonItem>
-        <IonLabel position="stacked">Input 4</IonLabel>
-        <IonInput
-          type="number"
-          name="input4"
-          onIonChange={handleInputChange}
-          value={getFieldProps("input4").value}
-        />
-      </IonItem>
+
       <IonItem>
         <IonLabel position="stacked">Sum</IonLabel>
         <IonInput
